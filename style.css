@@ -1,0 +1,673 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-width contact section */
+.contact {
+    background-image: url('images/clean.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-form h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.get-in-touch h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.get-in-touch p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.get-in-touch a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.get-in-touch a:hover {
+    color: #0056b3;
+}
+
+.get-in-touch a i {
+    margin-right: 10px;
+}
+</style>
+</head>
+<body>
+
+<!-- Your previous content goes here -->
+
+<!-- Contact Section -->
+<section class="contact">
+<div class="container">
+    <h2>Contact Me</h2>
+    <div class="contact-wrapper">
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Get in Touch Section -->
+    <div class="get-in-touch">
+        <h3>Get in Touch with Me</h3>
+        <p>Connect with me on LinkedIn and GitHub:</p>
+        <a href="https://www.linkedin.com/in/carmel-kanyamunyu-4265372aa/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/cybercarmel" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub
+        </a>
+    </div>
+</div>
+</section>
+
+</body>
+</html>              *{
+margin: 0;
+padding: 0;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+
+}
+
+body{
+background: #080808;
+color: white;
+}
+#header {
+width: 100%;
+height: 100vh;
+background-image: url(images/night.jpg);
+background-size: cover;
+background-position: center;
+}
+.container{
+padding: 10px 10%;
+
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+.logo {
+width: 140px; /* Adjust the width as needed */
+
+}
+nav ul li {
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+
+}
+nav ul li a{
+color: white;
+text-decoration:none ;
+font-size: 18px;
+position: relative;
+}
+nav ul li a::after{  
+content: '';
+width: 0;
+height: 3px;
+background: white;
+position: absolute;
+left: 0;
+bottom: -6px;
+transition: 0.5s;
+}
+nav ul li a:hover::after{
+width: 100%;
+}
+.header-text{
+margin-top: 20%;
+font-size: 30px;
+}
+.header-text h1{
+font-size: 60px;
+margin-top: 20px;
+}
+.header-text h1 span{
+color: black;
+
+}
+#about{
+padding: 80px 0;
+color: grey;
+}
+.row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+error  in my code
+}
+.about-col-1{
+flex-basis: 35%;
+}
+.about-col-1 img{
+width:100%;
+border-radius: 15px;
+}
+.about-col-2{
+flex-basis: 60%;
+}
+.sub-title{
+font-size: 60px;
+font-weight: 600;
+color: aliceblue;
+
+}
+.tab-titles{
+display:flex;
+margin:20px 0 40px;
+}
+.tab-links{
+margin-right: 50px;
+font-size: 18px;
+font-weight: 500;
+cursor: pointer;
+position: relative;
+
+}
+.tab-links.active-links::after{
+width: 50;
+}
+.tab-contents ul li {
+list-style: none;
+margin:10px 0;
+}
+.tab-contents ul li span{
+color:aqua;
+font-size: 14px;
+
+}
+
+<!-- Services section starts here -->
+#services{
+padding: 3px 0;
+
+}
+.hobbies-list{
+display:grid;
+grid-template-columns: repeat(Auto-fit,minmax(250px,1fr));
+grid-gap: 40px;
+margin-top: 50px;
+
+}
+.hobbies-list div{
+background:palevioletred;
+padding: 40px;
+font-size: 13px;
+font-weight: 300;
+border-radius: 10px;
+transition: background 0.5s, transform 0.5s ;
+
+}
+.hobbies-list div i{
+font-size: 50px;
+margin-bottom: 30px;
+}
+
+.hobbies-list div h2{
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.hobbies-list div a{
+text-decoration: none;
+color: aliceblue;
+font-size: 12px;
+margin-top: 20px;
+display: inline-block;
+
+}
+.hobbies-list div :hover{
+background: white;
+transform: translateY(-10px);
+
+}
+#portfolio{
+padding: 50px 0;
+
+}
+.work-list{
+display:grid;
+grid-template-columns: repeat(Auto-fit,minmax(250px,1fr));
+grid-gap: 40px;
+margin-top: 50px;
+}
+.work{
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+}
+.work img{
+width: 100%;
+border-radius: 10px;
+display: block;
+transition: transform 0.5s;
+}
+.layer{
+width: 100%;
+height:0;
+background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+border-radius: 10px;
+position: absolute;
+left:0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0 40px;
+text-align: center;
+font-size: 14px;
+transform: height 0.5s;
+}
+.layer h3{
+font-weight: 500;
+margin-bottom: 20px;
+}
+.work:hover img {
+transform: scale(1.1);
+
+}
+.work:hover.layer{
+height: 100%;
+
+}
+
+.contact-wrapper {
+display: flex;
+justify-content: space-between;
+gap: 30px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.8); /* Light background for text readability */
+border-radius: 8px;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form input, 
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact-form button {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-form button:hover {
+background-color: #0056b3;
+}
+
+.contact-info p, .get-in-touch a {
+margin: 10px 0;
+display: flex;
+align-items: center;
+}
+
+.contact-info p i, .get-in-touch a i {
+margin-right: 10px;
+color: #007bff;
+}
+
+.get-in-touch a {
+color: #007bff;
+text-decoration: none;
+}
+
+.get-in-touch a:hover {
+color: #0056b3;
+}  
+
+
+
+.container img {
+    width: 300px; /* Adjusts the image width to a medium size */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: rounds the corners of the image */
+}
+/* just made me about me text stand next to my picture im sooo happy below is for html etc*/
+
+
+/* Services Section */
+#services {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+    width: 30%; /* Adjust the width as needed */
+    min-width: 280px;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+}
+
+.service-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-content h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.service-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.service-content a {
+    display: inline-block;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.service-content a:hover {
+    background-color: #0056b3;
+}
+
+.service-content i {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+/* About section */
+.about-section {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Container for items */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Individual about item */
+.about-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.about-item h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Hover effect */
+.about-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .about-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-item {
+        width: 90%;
+    }
+  
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    
+    .skills {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .skill {
+        margin-bottom: 20px;
+    }
+    
+    .label {
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .progress-bar {
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 25px;
+    }
+    
+    .progress-bar span {
+        display: block;
+        height: 100%;
+        line-height: 25px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    /* Individual skill bar colors */
+    .cpp {
+        width: 99%;
+        background-color: #4caf50;
+    }
+    
+    .mysql {
+        width: 66%;
+        background-color: #2196f3;
+    }
+    
+    .python {
+        width: 66%;
+        background-color: #fbbc04;
+    }
+    
+    .c {
+        width: 65%;
+        background-color: #ff9800;
+    }
+    
+    .html-js {
+        width: 100%;
+        background-color: #ff5722;
+    }
+
+
+    .team-member .member-photo {
+        width: 100%; /* Make sure the container is responsive */
+        max-width: 250px; /* Restrict the container's max width */
+        overflow: hidden; /* Hide any excess image parts */
+        position: relative; /* Helps with positioning the overlay */
+    }
+    
+    /* Adjust image size */
+    .team-member .member-photo img {
+        width: 100%;  /* Make the image fill its container */
+        height: auto;  /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure image fits the container properly without distortion */
+    }
+    
+    /* Optional: Style for hover effect */
+    .member-photo:hover .overlay {
+        opacity: 1;  /* Make the overlay visible on hover */
+    }
+
+
+
+
+
+    .container img {
+        width: 300px; /* Adjusts the image width to a medium size */
+        height: auto; /* Maintains the aspect ratio */
+        border-radius: 10px; /* Optional: rounds the corners of the image */
+    }
+    .contact img {
+        width: 200px;  /* Example size */
+        height: auto;  /* Maintains the aspect ratio */
+        border-radius: 10px;  /* Optional: rounds the corners */
+    }
